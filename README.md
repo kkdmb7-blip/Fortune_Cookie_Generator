@@ -2,8 +2,6 @@
 
  build with JavaScript, HTML, CSS. The code can be found in the "Virtuel_Furtune_Cookie" folder.
  
- Try out the Fortune Cookie Generator here [book-of-coding.com](https://book-of-coding.com/build_projects.html#virtuel_cookie)
-
 
  Preview
 
