@@ -1,8 +1,11 @@
 <!doctype html>
-<html>
+<html lang="ko">
 	<head>
 	  <meta charset="UTF-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	  <meta name="google" content="notranslate">
+	  <link rel="preconnect" href="https://fonts.googleapis.com">
+	  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
 	  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 	  <link href="assets/fontawesome/css/fontawesome.css" rel="stylesheet">
 	  <link href="assets/fontawesome/css/brands.css" rel="stylesheet">
@@ -12,16 +15,18 @@
 	</head>
 	<body>
 	  <div class="header">
-		<a class="back-link" href="https://book-of-coding.com/build_projects.html">Back</a>
+		  <a href="https://picol.kr" class="picol-link">🧪 피코랩</a>
 		  <h1>Virtual Fortune Cookie</h1>
-		  <a href="https://twitter.com/bella_mrx" class="fa-brands fa-twitter"><span class="link">@bella_mrx</span></a>
-		  <a href="https://github.com/BellaMrx" class="fa-brands fa-github"><span class="link">BellaMrx</span></a>
 	  </div>
-	  <div class="main">			
-		  <img class="closeCookie" onclick="openVC(); this.onclick=null;" src="images/fortune-cookie1.png"> 
+	  <div class="main">
+		  <img class="closeCookie" onclick="openVC(); this.onclick=null;" src="images/fortune-cookie1.png">
 		  <p class="cookieNewText" id="cookieText"><p>
-		  <p class="breakGoodbye" id="goodbyeText">Click on the cookie to break it.</p>
+		  <p class="breakGoodbye" id="goodbyeText">쿠키를 클릭해서 깨트려 보세요.</p>
 	  </div>
+	  <footer class="picol-footer">
+		  원작자: <a href="https://github.com/BellaMrx" target="_blank">BellaMrx</a> | MIT License &nbsp;|&nbsp;
+		  한국어 버전: <a href="https://picol.kr" target="_blank">피코랩 (picol.kr)</a>
+	  </footer>
 	  <script src="scripts/script.js" defer></script>
 	</body>
 </html>
