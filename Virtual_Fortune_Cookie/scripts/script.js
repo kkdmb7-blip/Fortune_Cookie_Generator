@@ -1,20 +1,11 @@
-// 쿠키 클릭 시 실행 (한 번만 클릭 가능 - HTML onclick에서 this.onclick=null 처리)
 function openVC() {
-
 	var body = document.querySelector("img.closeCookie");
 	body.style.animation = "shake 0.8s";
 
 	setTimeout(() => {
 		body.src = "/images/fortune-cookie-text1.png";
-		body.style.width = "800px";
-		body.style.height = "425px";
-		body.style.textAlign = "center";
-		body.style.margin = "0px auto";
-		body.style.padding = "0px";
-		body.style.position = "relative";
-		body.style.borderRadius = "100px";
+		body.classList.add("opened");
 
-		// 한국어 포춘 쿠키 문구
 		var quote = [
 			"작은 용기가 큰 행운을 부릅니다.",
 			"지금 이 순간이 가장 좋은 시작입니다.",
